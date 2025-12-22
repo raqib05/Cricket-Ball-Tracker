@@ -1,0 +1,52 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+.env
+.venv
+venv/
+yolo_env/
+pip-wheel-metadata/
+
+# =========================
+# YOLO / Ultralytics outputs
+# =========================
+runs/
+*.pt
+*.onnx
+*.engine
+*.torchscript
+*.mlmodel
+
+
+# =========================
+# YOLO cache files
+# =========================
+*.cache
+labels.cache
+
+# =========================
+# Dataset
+# =========================
+data/
+
+# =========================
+# Videos & media
+# =========================
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+
+# =========================
+# Logs
+# =========================
+*.log
+
